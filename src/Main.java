@@ -17,7 +17,7 @@ public class Main {
         BasePlusCommissionEmployee celes = new BasePlusCommissionEmployee("Celes", "Arredondo", "6182",
                 4600, 0.15, 900);
 
-        System.out.println("El empleado celes vendió $4600 y cobra comisión del 15% y tiene un salario de $900 por día");
+        System.out.println(celes);
         System.out.println("Las ganancias de celes el día de hoy son: $" + celes.calculateEarnings());
     }
 }
